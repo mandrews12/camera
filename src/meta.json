@@ -51,14 +51,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -194,7 +194,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -240,7 +243,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -272,6 +278,11 @@
                     "scope": "APP",
                     "name": "back_ground",
                     "screenId": "1df1e6dc-3516-41b1-a41f-a278b1c69a14"
+                },
+                "6bfb4831-aa43-41b8-8914-157f6f048e3f": {
+                    "scope": "APP",
+                    "name": "pic_taken",
+                    "screenId": "a6ae1d03-4d08-40a3-9c13-52fb97499279"
                 }
             },
             "defaultDesignerDevice": "PHONE",
